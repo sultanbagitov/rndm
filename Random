@@ -10,7 +10,7 @@ int main() {
     std::srand(static_cast<unsigned int>(std::time(nullptr)));
     
     while (random_numbers.size() < array_size) {
-        int random_number = std::rand() % 100; // Генерируем случайное число от 0 до 99
+        int random_number = std::rand() % 100; 
         
         bool is_duplicate = false;
         for (int num : random_numbers) {
